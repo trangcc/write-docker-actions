@@ -1,0 +1,7 @@
+name: Initial Workflow
+
+on: [push]
+
+jobs:
+  helloworld:
+    - run: echo "Hello World"
